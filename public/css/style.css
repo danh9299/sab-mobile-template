@@ -1,0 +1,154 @@
+/*css for footer*/
+footer{
+    margin-top: 30%;
+}
+
+
+/*css for header*/
+.sab-header{
+    display: flex;
+ align-items: center;
+    justify-content: space-between;
+    background-color: rgb(240, 184, 0);
+   padding-top: 1%;
+   padding-bottom: 10px;
+
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+}
+
+.sab-header img{
+    filter: invert(20%);
+    width: 5rem;
+}
+
+.sab-header button{
+    background-color: silver;
+}
+/*css for ovreflowX_scroll_template*/
+.sab-overflow{
+    overflow-x: auto;
+    display: flex;
+    white-space: nowrap;
+    
+}
+.sab-overflow a{
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.sab-overflow button{
+    background-color: rgb(240, 184, 0);
+}
+
+
+
+/*css for grid_template*/
+.sab-grid button{
+    background-color: rgb(240, 184, 0);
+}
+
+.sab-grid a{
+    text-decoration: none;
+    
+}
+
+/*css for 1_line_icons_template*/
+.sab-1-line-icons{
+    overflow-x: auto;
+    display: flex;
+    white-space: nowrap;
+   
+}
+
+.sab-1-line-icons a{
+    text-decoration: none;
+    padding: 5px;
+}
+
+
+.sab-1-line-icons .sab-icons{
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+}
+
+
+/*css cho cards_template*/
+.sab-cards-product-category{
+    color:darkgrey;
+    text-decoration: none;
+}
+.sab-cards .sab-cards-product-quick-info{
+    text-decoration: none;
+    color: black;
+    }
+
+
+
+/*css cho list_coupon_template*/
+.sab-coupon-list-item{
+   
+}
+.sab-coupon-code{
+
+}
+.sab-coupon-name{
+    color: blue;
+}
+.sab-coupon-view{
+    text-decoration: none;
+    color: black;
+ 
+}
+.sab-coupon-view:hover {
+    color: blue; /* Changing the color to blue on hover */
+}
+
+.sab-coupon-list-refresh {
+    background-color:rgb(118, 118, 255);
+}
+.sab-coupon-buy-new{
+    background-color: rgb(39, 206, 39);
+}
+
+/*css cho show_coupon_template*/
+.add-money-to-coupon{
+    background-color: rgb(39, 206, 39);
+}
+
+
+/*
+CSS cho list_transaction-history_template:
+*/
+.sab-transaction-history-list-item{
+   
+}
+.sab-transaction-history-code{
+
+}
+.sab-transaction-history-name{
+    color: blue;
+}
+.sab-transaction-history-view{
+    text-decoration: none;
+    color: black;
+ 
+}
+.sab-transaction-history-view:hover {
+    color: blue; /* Changing the color to blue on hover */
+}
+
+
+
+
+
+
+
+
+
+/*css cho account_info_template*/
+.must-input{
+    color: red;
+}
